@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JOB Application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1>Job Application</h1>
+        <form action="">
+          <div class="form-container">
+            <div class="form-element">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="jhon"
+              />
+            </div>
+            <div class="form-element">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="doe"
+              />
+            </div>
+            <div class="form-element">
+              <label for="contact">Contact</label>
+              <input
+                type="text"
+                name="contact"
+                id="contact"
+                placeholder="1234.."
+              />
+            </div>
+            <div class="form-element">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="jhondoe@gmail.com"
+              />
+            </div>
+            <div class="form-element">
+              <label for="jobpostion">Job Position</label>
+              <select name="jobpostion" id="jobpostion">
+                <option value="frontend">Frontend Dev</option>
+                <option value="backend">Backend Dev</option>
+                <option value="fullstack">Full-Stack Dev</option>
+                <option value="uiux">UI/UX Designer</option>
+              </select>
+            </div>
+            <div class="form-element">
+                <label for="address">Address</label>
+                <textarea name="address" id="address" row="4" cols="30"></textarea>
+              </div>
+              <div class="form-element">
+                <label for="postalcode">Postal Code</label>
+                <input
+                  type="text"
+                  name="postalcode"
+                  id="postalcode"
+                />
+              </div>
+              <div class="form-element">
+                <label for="file">Upload your CV</label>
+                <input
+                  type="file"
+                  name="file"
+                  id="file"
+                  
+                />
+              </div>
+          </div>
+          <div class="btn-container">
+            <button onclick="submit">Apply Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
